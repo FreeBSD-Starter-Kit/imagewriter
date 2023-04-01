@@ -9,9 +9,9 @@ A simple GUI utility for writing ISO and IMG files to USB.
 
 ### Usage
 
-'''
+```
 python ./imagewriter.py
-'''
+```
 
 Here is an image of the initial screen.
 

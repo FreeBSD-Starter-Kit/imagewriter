@@ -11,8 +11,8 @@ A simple GUI utility for writing ISO and IMG files to USB.
 
 python ./imagewriter.py
 
-![Initial screen](images/Imagewriter-1.jpg)
+![Initial screen](images/Imagewriter-1.png)
 
-![Enter path to ISO image](images/Imagewriter-2.jpg)
+![Enter path to ISO image](images/Imagewriter-2.png)
 
-![Successfully written](images/Imagewriter-3.jpg)
+![Successfully written](images/Imagewriter-3.png)

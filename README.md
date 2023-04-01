@@ -1,6 +1,6 @@
 # imagewriter
 
-A simple GUI utility for writing ISO and IMG files to USB.
+A simple GUI utility for writing ISO and IMG files to a USB drive (e.g., /dev/da0).
 
 ### Dependencies
 * FreeBSD or FreeBSD-based OS

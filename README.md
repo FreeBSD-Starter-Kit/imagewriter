@@ -13,6 +13,6 @@ python ./imagewriter.py
 
 ![Initial screen](images/Imagewriter-1.jpg)
 
-![Enter path](images/Imagewriter-2.jpg)
+![Enter path to ISO image](images/Imagewriter-2.jpg)
 
 ![Successfully written](images/Imagewriter-3.jpg)

@@ -3,10 +3,10 @@ gi.require_version('Gtk', '3.0')
 from gi.repository import Gtk
 import subprocess
 
-class IMGWriter(Gtk.Window):
+class ImageWriter(Gtk.Window):
 
     def __init__(self):
-        Gtk.Window.__init__(self, title="IMGWriter")
+        Gtk.Window.__init__(self, title="Image Writer")
 
         vbox = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=6)
         self.add(vbox)
@@ -43,7 +43,7 @@ class IMGWriter(Gtk.Window):
         Gtk.main_quit()
 
 if __name__ == "__main__":
-    window = IMGWriter()
+    window = ImageWriter()
     window.connect("delete-event", window.on_delete_event)
     window.show_all()
     Gtk.main()

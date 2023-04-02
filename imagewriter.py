@@ -11,15 +11,15 @@ class ImageWriter(Gtk.Window):
         vbox = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=6)
         self.add(vbox)
 
-        iso_label = Gtk.Label(label="Enter the path to the ISO image:")
-        iso_label.set_margin_top(10)
+        iso_label = Gtk.Label(label="Enter the path and name of the image file:")
+        iso_label.set_margin_top(18)
         vbox.pack_start(iso_label, True, True, 0)
 
         self.iso_entry = Gtk.Entry(width_chars=50)
         vbox.pack_start(self.iso_entry, True, True, 0)
 
         device_label = Gtk.Label(label="Enter the device (e.g. /dev/da0):")
-        device_label.set_margin_top(5)
+        device_label.set_margin_top(10)
         vbox.pack_start(device_label, True, True, 0)
 
         self.device_entry = Gtk.Entry(width_chars=50)

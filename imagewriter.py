@@ -26,6 +26,7 @@ class ImageWriter(Gtk.Window):
         button = Gtk.Button(label="Write to USB")
         button.connect("clicked", self.write_to_usb)
         vbox.pack_start(button, True, True, 0)
+        button.set_size_request(button.get_allocated_width() // 2, -1) 
 
     def write_to_usb(self, widget):
         iso_path = self.entry.get_text()

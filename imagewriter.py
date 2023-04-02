@@ -30,7 +30,7 @@ class IMGWriter(Gtk.Window):
     def write_to_usb(self, widget):
         iso_path = self.entry.get_text()
         device_path = self.device_entry.get_text()
-        command = f"dd if={iso_path} of={device_path} bs=1M"
+        command = f"dd if={iso_path} of={device_path} bs=1m"
         result = subprocess.run(command, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
         if result.returncode == 0:
             dialog = Gtk.MessageDialog(parent=self, flags=0, message_type=Gtk.MessageType.INFO, buttons=Gtk.ButtonsType.OK, text="The ISO image was successfully written to the USB drive.")

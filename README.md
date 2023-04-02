@@ -16,7 +16,7 @@ A simple GUI utility for writing an ISO or IMG file to a USB drive.
 ```
 git clone https://github.com/FreeBSD-Starter-Kit/imagewriter
 cd imagewriter
-chmod a+x imagewrite.py
+chmod a+x imagewrite
 ```
 
 ### Usage

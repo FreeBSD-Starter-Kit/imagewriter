@@ -42,7 +42,7 @@ class ImageWriter(Gtk.Window):
         vbox.pack_start(button, True, True, 0)
 
     def write_to_usb(self, widget):
-        iso_path = self.entry.get_text()
+        iso_path = self.iso_entry.get_text()
         device_path = self.device_entry.get_text()
         command = f"dd if={iso_path} of={device_path} bs=1m"
         result = subprocess.run(command, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)

@@ -6,6 +6,14 @@ A simple GUI utility for writing an ISO or IMG file to a USB drive.
 * FreeBSD or FreeBSD-based OS
 * Python 3.9 or later
 * Gtk 3.0 or later
+* git or unzip
+
+### Setup
+```
+git clone https://github.com/FreeBSD-Starter-Kit/imagewriter
+cd imagewriter
+chown a+x imagewrite.py
+```
 
 ### Usage
 

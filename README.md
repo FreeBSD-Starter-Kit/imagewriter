@@ -1,4 +1,4 @@
-# imagewriter
+# Image Writer
 
 A simple GUI utility for writing an ISO or IMG file to a USB drive.
 

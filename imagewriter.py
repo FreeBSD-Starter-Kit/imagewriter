@@ -26,7 +26,7 @@ class ImageWriter(Gtk.Window):
         vbox.pack_start(self.device_entry, True, True, 0)
 
         button = Gtk.Button(label="Write to USB")
-        button.set_size_request(150, 50)
+        button.set_size_request(150, 30)
         button.set_margin_top(10) # Add top padding to the button
         button.connect("clicked", self.write_to_usb)
         button.set_margin_bottom(15) # Add bottom padding to the button

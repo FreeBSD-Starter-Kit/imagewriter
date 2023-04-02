@@ -18,6 +18,7 @@ Here is an image of the initial screen.
 ![Initial screen](images/ImageWriter-1.png)
 
 Enter the path to the ISO or IMG file. Be sure in include the name of the file.
+Enter the USB device name.
 
 ![Enter path to ISO image](images/ImageWriter-2.png)
 

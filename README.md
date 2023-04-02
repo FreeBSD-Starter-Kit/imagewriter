@@ -17,9 +17,9 @@ Here is an image of the initial screen.
 
 ![Initial screen](images/ImageWriter-1.png)
 
-Enter the path and name of the ISO or IMG file.
-
-Enter the USB device name.
+- Enter the path and name of the ISO or IMG file.
+- Enter the USB device name.
+- Select "Write to USB."
 
 ![Enter path to ISO image](images/ImageWriter-2.png)
 

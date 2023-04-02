@@ -6,9 +6,10 @@ A simple GUI utility for writing an ISO or IMG file to a USB drive.
 * FreeBSD or FreeBSD-based OS
 * Python 3.9 or later
 * py39-python-distutils-extra
-* intltool
 * Gtk 3.0 or later
 * Git
+* intltool
+* sudo
 
 ### Setup
 ```
@@ -20,7 +21,7 @@ chmod a+x imagewrite.py
 ### Usage
 
 ```
-python ./imagewriter
+sudo python ./imagewriter
 ```
 
 Here is an image of the initial screen.

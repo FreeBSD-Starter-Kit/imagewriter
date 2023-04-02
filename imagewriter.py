@@ -11,22 +11,26 @@ class ImageWriter(Gtk.Window):
         vbox = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=6)
         self.add(vbox)
 
-        label = Gtk.Label(label="Enter the path to the ISO image:")
-        vbox.pack_start(label, True, True, 0)
+        iso_label = Gtk.Label(label="Enter the path to the ISO image:")
+        iso_label.set_margin_top(10)
+        vbox.pack_start(iso_label, True, True, 0)
 
-        self.entry = Gtk.Entry(width_chars=50)
-        vbox.pack_start(self.entry, True, True, 0)
+        self.iso_entry = Gtk.Entry(width_chars=50)
+        vbox.pack_start(self.iso_entry, True, True, 0)
 
         device_label = Gtk.Label(label="Enter the device (e.g. /dev/da0):")
+        device_label.set_margin_top(5)
         vbox.pack_start(device_label, True, True, 0)
 
         self.device_entry = Gtk.Entry(width_chars=50)
         vbox.pack_start(self.device_entry, True, True, 0)
 
         button = Gtk.Button(label="Write to USB")
+        button.set_size_request(150, 50)
+        button.set_margin_top(10) # Add top padding to the button
         button.connect("clicked", self.write_to_usb)
+        button.set_margin_bottom(15) # Add bottom padding to the button
         vbox.pack_start(button, True, True, 0)
-        button.set_size_request(button.get_allocated_width() // 2, -1) 
 
     def write_to_usb(self, widget):
         iso_path = self.entry.get_text()
@@ -48,3 +52,4 @@ if __name__ == "__main__":
     window.connect("delete-event", window.on_delete_event)
     window.show_all()
     Gtk.main()
+

@@ -33,7 +33,7 @@ class ImageWriter(Gtk.Window):
         command = f"dd if={iso_path} of={device_path} bs=1m"
         result = subprocess.run(command, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
         if result.returncode == 0:
-            dialog = Gtk.MessageDialog(parent=self, flags=0, message_type=Gtk.MessageType.INFO, buttons=Gtk.ButtonsType.OK, text="The ISO image was successfully written to the USB drive.")
+            dialog = Gtk.MessageDialog(parent=self, flags=0, message_type=Gtk.MessageType.INFO, buttons=Gtk.ButtonsType.OK, text="The image file was successfully written to the USB drive.")
         else:
             dialog = Gtk.MessageDialog(parent=self, flags=0, message_type=Gtk.MessageType.ERROR, buttons=Gtk.ButtonsType.OK, text="An error occurred while writing the ISO image to the USB drive.")
         dialog.run()

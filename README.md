@@ -15,12 +15,12 @@ python ./imagewriter.py
 
 Here is an image of the initial screen.
 
-![Initial screen](images/Imagewriter-1.png)
+![Initial screen](images/ImageWriter-1.png)
 
 Enter the path to the ISO or IMG file. Be sure in include the name of the file.
 
-![Enter path to ISO image](images/Imagewriter-2.png)
+![Enter path to ISO image](images/ImageWriter-2.png)
 
 Once completed, the following message will appear.
 
-![Successfully written](images/Imagewriter-3.png)
+![Successfully written](images/ImageWriter-3.png)

@@ -1,0 +1,13 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Name=Image Writer
+Name[ru]=Запись образа на USB-накопитель
+Comment=A simple GUI utility for writing an ISO or IMG file to a USB drive
+Comment[ru]=Простая утилита с графичиским интрефейсом  для записи ISO или IMG файла на USB диск
+Exec=sudo imagewriter
+Icon=imagewriter
+Icon[ru_RU]=imagewriter
+Terminal=false
+Type=Application
+Categories=System;Utility;
+StartupNotify=false

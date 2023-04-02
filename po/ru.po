@@ -1,0 +1,42 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-04-02 13:19+0300\n"
+"PO-Revision-Date: 2023-04-02 12:33+0300\n"
+"Last-Translator: Alexander Alexeev <alexax66@gmail.com>\n"
+"Language-Team: Language locale/ru\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: imagewriter.py:16
+msgid "Image Writer"
+msgstr "Запись образа на USB-накопитель"
+
+#: imagewriter.py:23
+msgid "Enter the path and name of the image file:"
+msgstr "Введите путь и имя файла образа:"
+
+#: imagewriter.py:30
+msgid "Enter the device (e.g. /dev/da0):"
+msgstr "Введите имя USB-накопителя (например, /dev/da0):"
+
+#: imagewriter.py:37
+msgid "Write to USB"
+msgstr "Записать на USB-накопитель"
+
+#: imagewriter.py:50
+msgid "The image file was successfully written to the USB drive."
+msgstr "Файл образа был успешно записан на USB-накопитель."
+
+#: imagewriter.py:52
+msgid "An error occurred while writing the ISO image to the USB drive."
+msgstr "Произошла ошибка при записи ISO-образа на USB-накопитель."

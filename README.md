@@ -20,7 +20,7 @@ chmod a+x imagewrite.py
 ### Usage
 
 ```
-python ./imagewriter.py
+python ./imagewriter
 ```
 
 Here is an image of the initial screen.
